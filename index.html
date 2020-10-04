@@ -87,6 +87,7 @@
       <section class="numbered-slider">
         <ul>
           <li>
+            <img src="img/selfie-stick.png" width="384" height="486" alt="Селфи палка">
             <p>
               Делай селфи, как Бен Стиллер!
             </p>
@@ -123,6 +124,7 @@
             </table>
           </li>
           <li>
+            <img src="img/fitness-bracelet.png" width="345" height="485" alt="Фитнес-браслет">
             <p>
               Худеем правильно!
             </p>
@@ -147,6 +149,7 @@
             </table>
           </li>
           <li>
+            <img src="img/quadcopter.png" alt="Квадрокоптер" width="526" height="334">
             <p>
               Порхает как бабочка, жалит как пчела!
             </p>
@@ -314,7 +317,10 @@
         <h2>
           Контакты
         </h2>
-        <p></p>
+        <p>
+          Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете<br>
+          проверить работоспособность покупки. Всякое бывает.
+        </p>
         <a href="#" class="map">
           <img src="img/map.png" alt="карта" width="560" height="222">
         </a>
@@ -322,7 +328,15 @@
           напишите нам
         </a>
       </section>
-      <form class="write-us" action="https://echo.htmlacademy.ru/" method="post"></form>
+      <form class="write-us" action="https://echo.htmlacademy.ru/" method="post">
+        <label for="name">Ваше имя:</label>
+        <input type="text" name="name" value="Имя Фамилия" id="name">
+        <label for="email">Ваш e-mail:</label>
+        <input type="" name="email" value="email@example.com" id="email">
+        <label for="letter">Текст письма:</label>
+        <textarea name="letter" cols="30" rows="10" id="letter">В свободной форме</textarea>
+        <input type="button" value="отправить">
+      </form>
     </main>
     <footer class="main-footer">
       <a>
