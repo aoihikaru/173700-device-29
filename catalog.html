@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Девайс, каталог товаров</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1 class="visually-hidden">
+        Интернет-магазин Девайс
+      </h1>
+      <nav class="main-nav">
+        <a href="index.html">
+          <img src="img/header-logo.png" alt="Девайс" width="164" height="35">
+        </a>
+        <a href="#">
+          Валентин Петухов
+        </a>
+        <a href="#">
+          Выйти
+        </a>
+        <a href="#">
+          Сравнить
+        </a>
+        <a href="#">
+          Корзина
+        </a>
+      </nav>
+      <form action="https://echo.htmlacademy.ru/" method="post">
+        <input type="search" placeholder="Поиск по сайту">
+      </form>
+      <section class="catalog">
+        <h2 class="catalog-title">
+          Каталог товаров
+        </h2>
+        <ul class="catalog-list">
+          <li class="catalog-item">
+            <a href="#" class="catalog-link">
+              Виртуальная реальность
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="catalog.html" class="catalog-link">
+              Моноподы для селфи
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#" class="catalog-link">
+              Экшн-камеры
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#" class="catalog-link">
+              Фитнес-браслеты
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#" class="catalog-link">
+              Умные часы
+            </a>
+          </li>
+          <li class="catalog-item">
+            <a href="#" class="catalog-link">
+              Квадрокоптер
+            </a>
+          </li>
+        </ul>
+      </section>
+      <ul class="main-links">
+        <li class="main-links-item">
+          <a href="#">
+            доставка
+          </a>
+        </li>
+        <li class="main-links-item">
+          <a href="#">
+            гарантия
+          </a>
+        </li>
+        <li class="main-links-item">
+          <a href="#">
+            контакты
+          </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <h2>
+        Моноподы для селфи
+      </h2>
+      <ul class="breadcrumbs">
+        <li class="bc-item">
+          <a href="#" class="bc-link">
+            Главная
+          </a>
+        </li>
+        <li class="bc-item">
+          <a href="#" class="bc-link">
+          Каталог товаров
+        </a>
+        </li>
+        <li class="bc-item">
+          <a class="bc-link">
+            Моноподы для селфи
+          </a>
+        </li>
+      </ul>
+      <section class="filter-from">
+        <h2 class="visually-hidden">
+          Фильтр товаров
+        </h2>
+        <p>
+          фильтр:
+        </p>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <fieldset>
+            <legend>
+              Стоимость
+            </legend>
+            <!-- Ползунок -->
+          </fieldset>
+          <fieldset>
+            <legend>
+              Цвет
+            </legend>
+            <label>
+              <input type="checkbox" name="black" value="black" checked>
+              Чёрный
+            </label>
+            <label>
+              <input type="checkbox" name="white" value="white">
+              Белый
+            </label>
+            <label>
+              <input type="checkbox" name="blue" value="blue" checked>
+              Синий
+            </label>
+            <label>
+              <input type="checkbox" name="red" value="red" checked>
+              Красный
+            </label>
+            <label>
+              <input type="checkbox" name="pink" value="pink">
+              Розовый
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend>
+              Bluetooth
+            </legend>
+            <label>
+              <input type="radio" name="bluetooth" value="bluetooth-on" checked>
+              Есть
+            </label>
+            <label>
+              <input type="radio" name="bluetooth" value="bluetooth-off">
+              Нет
+            </label>
+          </fieldset>
+          <input type="submit" value="показать">
+        </form>
+      </section>
+      <section>
+        <h2 class="visually-hidden">
+          Список товаров
+        </h2>
+        <div class="sorting">
+          <p>
+            сортировка:
+          </p>
+          <ul class="sorting-list--types">
+            <li class="sorting-item">
+              <a href="#" class="sorting-link">
+                По цене
+              </a>
+            </li>
+            <li class="sorting-item">
+              <a href="#" class="sorting-link">
+                По типу
+              </a>
+            </li>
+            <li class="sorting-item">
+              <a href="#" class="sorting-link">
+                По популярности
+              </a>
+            </li>
+          </ul>
+          <ul class="sorting-list--ascdesc">
+            <li class="sorting-item descending">
+              <a href="#" class="sorting-list">
+                по возрастанию
+              </a>
+            </li>
+            <li class="sorting-item ascending">
+              <a href="#" class="sorting-list">
+                по убыванию
+              </a>
+            </li>
+          </ul>
+        </div>
+        <section class="products">
+          <h2>
+            Товары
+          </h2>
+          <ul class="products-list">
+            <li class="produsts-item">
+              <h3>
+                Любительская селфи-палка
+              </h3>
+              <a href="#" class="products-link">
+                <img src="img/item-1.png" alt="Любительская селфи-палка" width="360" height="380">
+              </a>
+              <p>
+                500 руб.
+              </p>
+            </li>
+            <li class="produsts-item">
+              <h3>
+                Профессиональная<br>
+                селфи-палка
+              </h3>
+              <a href="#" class="products-link">
+                <img src="img/item-2.png" alt="Профессиональная селфи-палка" width="360" height="380">
+              </a>
+              <p>
+                1 500 руб.
+              </p>
+            </li>
+            <li class="produsts-item">
+              <h3>
+                Непотопляемая селфи-палка
+              </h3>
+              <a href="#" class="products-link">
+                <img src="img/item-3.png" alt="Непотопляемая селфи-палка" width="360" height="380">
+              </a>
+              <p>
+                2 500 руб.
+              </p>
+            </li>
+            <li class="produsts-item">
+              <h3>
+                Селфи-палка «Следуй за<br>
+                мной»
+              </h3>
+              <a href="#" class="products-link">
+                <img src="img/item-4.png" alt="Селфи-палка «Следуй за мной»" width="360" height="380">
+              </a>
+              <p>
+                4 900 руб.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <div class="pagination">
+          <a href="#" class="pagination-link">
+            назад
+          </a>
+          <ul class="pagination-list">
+            <li class="pagination-item">
+              <a class="pagination-link">
+                1
+              </a>
+            </li>
+            <li class="pagination-item">
+              <a href="#" class="pagination-link">
+                2
+              </a>
+            </li>
+            <li class="pagination-item">
+              <a href="#" class="pagination-link">
+                3
+              </a>
+            </li>
+          </ul>
+          <a href="#" class="pagination-link">
+            вперед
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <a href="index.html">
+        <img src="img/footer-logo.png" alt="Девайс" width="164" height="35">
+      </a>
+      <div class="footer-nav">
+        <a href="#">
+          Валентин Петухов
+        </a>
+        <a href="#">
+          Выйти
+        </a>
+        <a href="#">
+          Сравнить
+        </a>
+        <a href="#">
+          Корзина
+        </a>
+      </div>
+      <p class="address">
+        г. Москва, ул. Строителей, 15
+      </p>
+      <ul class="footer-links">
+        <li class="footer-links-item">
+          <a href="#">
+            доставка
+          </a>
+        </li>
+        <li class="footer-links-item">
+          <a href="#">
+            гарантия
+          </a>
+        </li>
+        <li class="footer-links-item">
+          <a href="#">
+            контакты
+          </a>
+        </li>
+      </ul>
+      <p class="phone">
+        Тел.: +7 (495) 495-95-95
+      </p>
+      <ul class="socials">
+        <li class="socails-item">
+          <a href="#" class="socials-link">
+            facebook
+          </a>
+        </li>
+        <li class="socails-item">
+          <a href="#" class="socials-link">
+            instagram
+          </a>
+        </li>
+        <li class="socails-item">
+          <a href="#" class="socials-link">
+            twitter
+          </a>
+        </li>
+      </ul>
+      <a href="https://htmlacademy.ru/intensive/htmlcss" class="creator">
+        <img src="img/htmlacademy.png" alt="HTML Academy">
+      </a>
+    </footer>
+  </body>
+</html>
