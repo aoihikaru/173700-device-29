@@ -132,8 +132,6 @@ img {
   line-height: 100%;
 }
 
-.slide-title {}
-
 .button {
   font-family: var(--gillroy-extrabold), Arial, sans-serif;
   font-size: 18px;
@@ -262,4 +260,98 @@ img {
 
 .creator {
   color: var(--special-yellow-dark);
+}
+
+.breadcrumbs-link {
+  color: rgba(0, 0, 0, 0.3);
+  font-family: var(--opensans-light), Arial, sans-serif;
+  font-size: 14px;
+  line-height: auto;
+}
+
+.filter-name {
+  font-family: var(--gillroy-extrabold), Arial, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+}
+
+.filter-upperblock {
+  background-color: #DCDCDC;
+}
+
+.filter {
+  background-color: var(--basic-grey-light);
+}
+
+.sorting-link {
+  font-family: var(--opensans), Arial, sans-serif;
+  color: var(--basic-black);
+}
+
+.sorting-link[href^="#"] {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.products-link {
+  display: none;
+}
+
+.product-thumb:hover .products-link {
+  display: block;
+  cursor: pointer;
+}
+
+.product-title {
+  font-family: var(--gillroy-extrabold), Arial, sans-serif;
+  color: var(--basic-black);
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+}
+
+.basket {
+  font-family: var(--gillroy-extrabold), Arial, sans-serif;
+  background-color: var(--special-yellow-dark);
+  color: var(--basic-black);
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.compare {
+  font-family: var(--opensans-light), Arial, sans-serif;
+  color: var(--basic-black);
+  font-size: 13px;
+  line-height: auto;
+  letter-spacing: 0.1em;
+}
+
+.price {
+  font-family: var(--gillroy-light), Arial, sans-serif;
+  color: var(--basic-black);
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+}
+
+.pagination {
+  background-color: #EBEBEB;
+}
+
+.pagination-link {
+  font-family: var(--gillroy-extrabold), Arial, sans-serif;
+  color: var(--basic-black);
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+}
+
+.pagination-link[href^="#"] {
+  color: rgba(0, 0, 0, 0.3);
 }
